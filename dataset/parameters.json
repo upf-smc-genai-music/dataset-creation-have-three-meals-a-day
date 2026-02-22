@@ -1,0 +1,27 @@
+{
+  "density": {
+    "type": "continuous",
+    "min": 0.0,
+    "max": 1.0
+  },
+  "loudness": {
+    "type": "continuous",
+    "min": 0.0,
+    "max": 1.0
+  },
+  "brightness": {
+    "type": "continuous",
+    "min": 0.0,
+    "max": 1.0
+  },
+  "roughness": {
+    "type": "continuous",
+    "min": 0.0,
+    "max": 1.0
+  },
+  "speed": {
+    "type": "continuous",
+    "min": 0.0,
+    "max": 1.0
+  }
+}

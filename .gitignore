@@ -1,0 +1,4 @@
+__pycache__/
+*.pyc
+dataset_smoke/
+assign_pt2.md

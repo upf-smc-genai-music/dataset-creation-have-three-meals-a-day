@@ -216,7 +216,7 @@ CSV format:
 
 def parse_args() -> argparse.Namespace:
     p = argparse.ArgumentParser(description="Generate a pyo-based sound texture dataset.")
-    p.add_argument("--out", type=Path, default=Path("dataset"), help="Output dataset directory")
+    p.add_argument("--out", type=Path, default=Path("raw"), help="Output dataset directory")
     p.add_argument("--target-minutes", type=float, default=10.0, help="Target total duration in minutes")
     p.add_argument("--file-min-sec", type=float, default=8.0, help="Minimum duration per file (seconds)")
     p.add_argument("--file-max-sec", type=float, default=14.0, help="Maximum duration per file (seconds)")
